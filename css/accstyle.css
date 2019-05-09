@@ -1,0 +1,95 @@
+
+/* h4 {
+  color:  #ffffff
+}
+#labels {
+  color:  #ffffff
+} */
+.account{
+  clear:both;
+  max-width:70%;
+  margin:0 auto;
+  display:block;
+  padding-top: 70px;
+}
+
+.ui-dividing-header{
+  text-align: center;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-image: url(../images/avengers.jpg);
+  background-size: cover;
+}
+
+.right {
+  right: 0;
+}
+
+.playbutton{
+  width: 100px;
+  height: 100px;
+  background: #FFF;
+  border: 2px solid #29293d;
+  position: fixed;
+  top: 70%;
+  border-radius: 50%;
+  left: 46%;
+}
+
+.play{
+  position: absolute;
+    top: 42%;
+    left: 35%;
+    font-size: 2em;
+    color: #29293d;
+}
+
+.nav{
+  position: fixed;
+  top:0;
+  width: 100%;
+  height: 70px;
+  z-index: 49;
+}
+
+.logo {
+  position: fixed;
+  left: 50px;
+  top: 5px;
+  padding: 10px;
+  z-index: 50;
+  color: #FFF;
+  font-size: 1.7em;
+}
+
+.searchNav {
+  position: fixed;
+  right: 50px;
+  padding: 10px;
+  z-index: 50;
+  color: #FFF;
+}
+
+.searchNav input{
+  font-size: 1.3em;
+  padding: 5px;
+  border: 0px;
+  border-bottom: 1px solid #FFF;
+  color: #FFF;
+  background-color: rgba(0,0,0,0);
+}
+
+.fa-search {
+  font-size: 1.3em;
+}

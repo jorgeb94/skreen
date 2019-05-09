@@ -1,0 +1,108 @@
+body{
+  background-color: #FFF;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav{
+  position: fixed;
+  top:0;
+  width: 100%;
+  height: 70px;
+  z-index: 49;
+}
+
+.logo {
+  position: fixed;
+  left: 50px;
+  top: 5px;
+  padding: 10px;
+  z-index: 50;
+  color: #FFF;
+  font-size: 1.7em;
+}
+
+.searchNav {
+  position: fixed;
+  right: 50px;
+  padding: 10px;
+  z-index: 50;
+  color: #FFF;
+}
+
+.searchNav input{
+  font-size: 1.3em;
+  padding: 5px;
+  border: 0px;
+  border-bottom: 1px solid #FFF;
+  color: #FFF;
+  background-color: rgba(0,0,0,0);
+}
+
+.fa-search {
+  font-size: 1.3em;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+.image-container {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-image: url('../images/ww1.jpg'); */
+  background-color: #29293d;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.forms-container{
+  padding-top: 200px;
+  width: 35%;
+  margin-right: 100px;
+  float: right;
+  text-align: center;
+}
+
+.forms-container{
+  color: #29293d !important;
+}
+
+.field label{
+  text-align: left !important;
+  color: #000 !important;
+}
+
+form .button {
+  padding-top: 10px;
+}
+
+.signup-label{
+  text-align: left;
+  margin-top: 20px;
+}
+
+.playbutton{
+  width: 100px;
+  height: 100px;
+  background: #FFF;
+  border: 2px solid #29293d;
+  position: fixed;
+  top: 70%;
+  border-radius: 50%;
+  left: 46%;
+}
+
+.play{
+  position: absolute;
+    top: 42%;
+    left: 35%;
+    font-size: 2em;
+    color: #29293d;
+}
+
+.error{
+  display: none;
+}
